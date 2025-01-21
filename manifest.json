@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Time Tracker",
+    "description": "Track the time spent on websites and classify them as productive or unproductive.",
+    "version": "1.0",
+    "permissions": [
+      "tabs",
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
